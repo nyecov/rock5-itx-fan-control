@@ -1,0 +1,14 @@
+[Unit]
+Description=Rock 5 ITX Intelligent Fan Control
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 -u /usr/local/bin/rock5-fan-control.py
+Restart=always
+RestartSec=5
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target
