@@ -44,6 +44,3 @@ Run a one-time cycle test to verify all speeds:
 ```bash
 sudo /usr/local/bin/rock5-fan-control.py --test
 ```
-
-## 📜 License
-MIT
