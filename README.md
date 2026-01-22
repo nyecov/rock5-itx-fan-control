@@ -16,7 +16,8 @@ During development, we discovered that:
 3.  **Tachometer Mapping**: The `FAN_SPEED` pin is mapped to **GPIO 139** (labeled as PWM15_M1 in documentation), which we utilize for interrupt-driven RPM counting.
 
 ## 📊 Default Speed Curve
-*   **Up to 50°C**: Level 2 (~2050 RPM)
+*   **Up to 40°C**: Level 1 (~1215 RPM)
+*   **40°C to 50°C**: Level 2 (~2050 RPM)
 *   **50°C to 60°C**: Level 3 (~2650 RPM)
 *   **Over 60°C**: Level 4 (~3050 RPM)
 

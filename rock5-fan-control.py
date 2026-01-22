@@ -201,7 +201,8 @@ def read_temp():
         return 75.0 # Fail safe
 
 def get_target_speed(temp):
-    if temp <= 50: return 2
+    if temp <= 40: return 1
+    elif temp <= 50: return 2
     elif temp <= 60: return 3
     else: return 4
 
