@@ -231,7 +231,11 @@ def main():
     
     # If run with --test flag, exit now
     if "--test" in sys.argv:
-        print("Test complete. Exiting (--test flag detected).")
+        print("Test complete. Resetting fan to current thermal target...")
+        temp = read_temp()
+        target_speed = get_target_speed(temp)
+        print(f"Current Temp: {temp:.1f}C -> Restoring Fan Speed: {target_speed}")
+        controller.set_speed(target_speed)
         return
 
     current_speed = -1
