@@ -45,3 +45,10 @@ Run a one-time cycle test to verify all speeds:
 ```bash
 sudo /usr/local/bin/rock5-fan-control.py --test
 ```
+
+
+<p align="center">
+  <a href="https://ko-fi.com/R6R81SBTTL">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
+  </a>
+</p>
