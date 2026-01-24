@@ -54,6 +54,9 @@ sudo /usr/local/bin/rock5-fan-control.py --test
 ```
 
 
+## 🤖 Attribution
+This repository was generated and structured with the assistance of **Antigravity with Gemini 3 Pro (High)** to accelerate development time.
+
 <p align="center">
   <a href="https://ko-fi.com/R6R81SBTTL">
     <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko-fi" />
