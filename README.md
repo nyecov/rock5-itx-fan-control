@@ -21,6 +21,13 @@ During development, we discovered that:
 *   **50°C to 60°C**: Level 3 (~2650 RPM)
 *   **Over 60°C**: Level 4 (~3050 RPM)
 
+## 📂 Included Configuration Files
+For advanced users or those building custom kernels, we include the Device Tree Source and Overlay used to enable the PWM hardware:
+*   `rock-5-itx-pwm14.dts`: The source code enabling the PWM14 node status to "okay".
+*   `rockchip-rk3588-pwm14.dtbo`: The compiled binary overlay.
+
+> **Note**: These are reference files. The installer script manages the necessary system configuration automatically.
+
 ## 🚀 Installation
 
 ### 1. Close the Repo
